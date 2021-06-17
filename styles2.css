@@ -1,0 +1,142 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  display: block;
+}
+
+.top-bar {
+	 display: block;
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top:0;
+	overflow:hidden;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	float:right;
+	font-size: 18px;
+	font-family: Lonely; 
+	padding: 16px;
+}
+.top-bar-button{
+	text-align: center;
+	 text-decoration: none;
+	padding: 16px;
+	width: 100%;
+}
+.top-bar-button:hover{
+	color: white; 
+}
+
+.side-bar {
+	
+}
+
+.header { 
+	display: block;
+  background-position: center;
+  background-image: url("pic1.jpg"), url("pic1-right.png");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.header-right-box { 
+display: block;
+  word-wrap: break-word;
+	position:absolute;
+	top:50%;
+	width: 150 px;
+	right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)
+}
+.header-headline{
+	font-family: Chopin;
+	color: white;
+	font-size: 72px;
+}
+
+.header-body-text{
+	font-family: Lonely;
+	color: white;
+	font-size: 30px;
+}
+
+.container-a { 
+	display: block;
+ min-height: 100%;
+  min-width: 100%;
+	display:inline-block;
+	width:auto;
+	text-align: center;
+	color: black;
+	background-color:white;
+	padding:128px 250px 128px 250px;
+}
+
+.container-b{ display: block;
+  min-height: 100%;
+  min-width: 100%;
+	display:inline-block;
+	width:auto;
+	text-align: center;
+	color: black;
+	background-color:#FFE8E5;
+	padding:128px 250px 128px 250px;
+}
+
+.container-headline {
+	font-family: Lonely;
+	color: black;
+	font-size: 30px;
+}
+
+.container-body-text{
+	display:inline-block;
+	width:auto;
+	text-align: center;
+	margin-top:64px;
+	font-family: Lonely;
+	color: black;
+	font-size: 20 px;
+}
+
+.footer {
+	 display: block;
+	 text-align: center; 
+	 background-color: white; 
+	 color: black; 
+	 font-size: 20 px;
+}
+
+@font-face {
+  font-family: 'Lonely';
+  src: url('./fonts/Lonely-Regular.eot') format('eot'),
+  url('./fonts/Lonely-Regular.woff2') format('woff2'),
+  url('./fonts/Lonely-Regular.woff') format('woff'), 
+  url('./fonts/Lonely-Regular.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/QuicksandLight-Regular.eot') format('eot'),
+  url('./fonts/QuicksandLight-Regular.woff2') format('woff2'),
+  url('./fonts/QuicksandLight-Regular.woff') format('woff'), 
+  url('./fonts/QuicksandLight-Regular.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Garland';
+  src: url('./fonts/Garland.eot') format('eot'),
+  url('./fonts/Garland.woff2') format('woff2'),
+  url('./fonts/Garland.woff') format('woff'), 
+  url('./fonts/Garland.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Chopin';
+  src: url('./fonts/ChopinScript.eot') format('eot'),
+  url('./fonts/ChopinScript.woff2') format('woff2'),
+  url('./fonts/ChopinScript.woff') format('woff'), 
+  url('./fonts/ChopinScript.ttf') format('truetype');	
+}
