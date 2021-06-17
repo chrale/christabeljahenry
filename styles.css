@@ -126,32 +126,24 @@ display: block;
 
 @font-face {
   font-family: 'Lonely';
-  src: url('./fonts/Lonely-Regular.eot') format('eot'),
-  url('./fonts/Lonely-Regular.woff2') format('woff2'),
-  url('./fonts/Lonely-Regular.woff') format('woff'), 
-  url('./fonts/Lonely-Regular.ttf') format('truetype');	
+  src: url('./Lonely-Regular.eot') format('eot'),
+  url('./Lonely-Regular.woff2') format('woff2'),
+  url('./Lonely-Regular.woff') format('woff'), 
+  url('./Lonely-Regular.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Quicksand';
-  src: url('./fonts/QuicksandLight-Regular.eot') format('eot'),
-  url('./fonts/QuicksandLight-Regular.woff2') format('woff2'),
-  url('./fonts/QuicksandLight-Regular.woff') format('woff'), 
-  url('./fonts/QuicksandLight-Regular.ttf') format('truetype');	
-}
-
-@font-face {
-  font-family: 'Garland';
-  src: url('./fonts/Garland.eot') format('eot'),
-  url('./fonts/Garland.woff2') format('woff2'),
-  url('./fonts/Garland.woff') format('woff'), 
-  url('./fonts/Garland.ttf') format('truetype');	
+  src: url('./QuicksandLight-Regular.eot') format('eot'),
+  url('./QuicksandLight-Regular.woff2') format('woff2'),
+  url('./QuicksandLight-Regular.woff') format('woff'), 
+  url('./QuicksandLight-Regular.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Chopin';
-  src: url('./fonts/ChopinScript.eot') format('eot'),
-  url('./fonts/ChopinScript.woff2') format('woff2'),
-  url('./fonts/ChopinScript.woff') format('woff'), 
-  url('./fonts/ChopinScript.ttf') format('truetype');	
+  src: url('./ChopinScript.eot') format('eot'),
+  url('./ChopinScript.woff2') format('woff2'),
+  url('./ChopinScript.woff') format('woff'), 
+  url('./ChopinScript.ttf') format('truetype');	
 }
