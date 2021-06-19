@@ -5,6 +5,7 @@ body, html {
   line-height: 1.8;
   display: block;
 	scroll-behavior: smooth;
+	margin:0px;
 }
 
 .top-bar {
